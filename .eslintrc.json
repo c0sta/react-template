@@ -9,7 +9,8 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended",
     "plugin:react/jsx-runtime",
-    "prettier"
+    "plugin:prettier/recommended",
+    "plugin:testing-library/react"
   ],
   "overrides": [],
   "parser": "@typescript-eslint/parser",
