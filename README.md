@@ -14,34 +14,29 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-<p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="src/assets/react_typescript.png" alt="Logo" width="auto" height="auto">
-  </a>
-
-  <p align="center">
-   This is my personal boilerplate for projects with React + TS.
+<div align="center">
+  <h2>⚛ React + TS template.</h2>
+  <p>
     <br />
-    <br />
-    <a href="#">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/c0sta/react-template/issues"> 🐛 Report Bug</a>
+    |
+    <a href="https://github.com/c0sta/react-template/issues">⭐ Request Feature</a>
   </p>
-</p>
+</div>
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## About
 
-This boilerplate was build using [Vite.js](https://vitejs.dev/) because it's lighter than the usual [create-react-app](https://create-react-app.dev/). Read [this](https://medium.com/codex/you-should-choose-vite-over-cra-for-react-apps-heres-why-47e2e7381d13) if you want to know more about.
+This is my personal template for React.JS + Typescript projects, using some tools that I like to use in all my personal projects.
 
 ## Built With
 
-In this boilerplate I've added the base configurations for:
+In this template I included some settings for:
 
 - ESLint +Prettier
 - Commitlint + Husky
-- Simple Docker compose configuration
-- Simple CI pipeline to validate the pull requests on `development` branch
+- Docker compose configuration
+- Simple CI pipeline to validate the pull requests on `development` and `main` branch. Using [Github Actions](https://docs.github.com/en/actions)
+- Vitest + RTL
+- Storybook
