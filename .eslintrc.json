@@ -28,5 +28,11 @@
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "linebreak-style": ["error", "unix"]
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
   }
 }
