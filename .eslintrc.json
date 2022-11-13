@@ -27,7 +27,8 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "linebreak-style": ["error", "unix"]
+    "linebreak-style": ["error", "unix"],
+    "testing-library/no-debugging-utils": "warn"
   },
   "settings": {
     "react": {
